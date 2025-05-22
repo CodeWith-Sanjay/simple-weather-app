@@ -1,0 +1,98 @@
+body {
+    background-color: #FFE57F;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-container {
+    height: auto;
+    display: flex;
+    width: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.form-container {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD54F;
+    border-radius: 10px;
+}
+
+.input-text {
+    max-width: 100%;
+    min-width: 200px;
+    height: 55px;
+    font-size: 1.3rem;
+    border: 0;
+    border-radius: 10px;
+    color: gray;
+    transition: 0.3s ease-in;
+}
+
+.input-text:hover {
+    color: black;
+    border: 1px groove black;
+    transition: 0.3s ease-out;
+}
+
+.submit-btn {
+    max-width: 100%;
+    min-width: 200px;
+    height: 55px;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    transition: 0.3s ease-in;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+    color: white;
+    background-color: forestgreen;
+    transition: 0.3s ease-out;
+}
+
+.weather-result-container {
+    border: 0;
+    height: 300px;
+    width: 500px;
+    background-color: #FFD54F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.weather-result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.footer {
+    text-align: center;
+    align-items: baseline;
+}
+
+
